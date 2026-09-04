@@ -1017,8 +1017,8 @@ importers:
         specifier: ^11.2.0
         version: 11.3.5
       js-yaml:
-        specifier: ^4.1.0
-        version: 4.3.1
+        specifier: ^5.2.2
+        version: 5.2.2
       lodash:
         specifier: ^4.17.21
         version: 4.18.1
@@ -1930,8 +1930,8 @@ importers:
         specifier: ^2.7.0
         version: 2.7.0
       js-yaml:
-        specifier: ^4.1.0
-        version: 4.3.1
+        specifier: ^5.2.2
+        version: 5.2.2
       lodash:
         specifier: ^4.17.21
         version: 4.18.1
@@ -2006,8 +2006,8 @@ importers:
         specifier: ^18.1.2
         version: 18.2.3
       js-yaml:
-        specifier: ^4.1.0
-        version: 4.3.1
+        specifier: ^5.2.2
+        version: 5.2.2
       lodash:
         specifier: ^4.17.21
         version: 4.18.1
@@ -9523,12 +9523,12 @@ packages:
     resolution: {integrity: sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==}
     hasBin: true
 
-  js-yaml@4.2.0:
-    resolution: {integrity: sha512-ePWsvanv0DWuDRsW8dnt+R4jQ31SCRCQ7hhNcPXZPsoBZiemuZNYGf7adZdqX2D86j6rvKp3RpCxVTSb8WQlOw==}
-    hasBin: true
-
   js-yaml@4.3.1:
     resolution: {integrity: sha512-CY6crGq313MX8GkwvB7tzgp99vjQxY1++5y10/BKN/GUfHqWaOGQMNZkBvqSzsZKWk/ijwHlWzzkLulsGHhjWQ==}
+    hasBin: true
+
+  js-yaml@5.2.2:
+    resolution: {integrity: sha512-dayzUzKkJ1MkuUtZglSebU43utNXH0OWQByK9rKOOuYIO8M5TV1y+n8ALMdG0rdzBnfNkOmZEqrURepb0ejqBw==}
     hasBin: true
 
   jsdoc-type-pratt-parser@7.2.0:
@@ -15339,7 +15339,7 @@ snapshots:
       globals: 14.0.0
       ignore: 5.3.2
       import-fresh: 3.3.1
-      js-yaml: 4.2.0
+      js-yaml: 4.3.1
       minimatch: 3.1.5
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
@@ -19278,7 +19278,7 @@ snapshots:
   cosmiconfig@8.3.6(typescript@6.0.3):
     dependencies:
       import-fresh: 3.3.1
-      js-yaml: 4.2.0
+      js-yaml: 4.3.1
       parse-json: 5.2.0
       path-type: 4.0.0
     optionalDependencies:
@@ -19288,7 +19288,7 @@ snapshots:
     dependencies:
       env-paths: 2.2.1
       import-fresh: 3.3.1
-      js-yaml: 4.2.0
+      js-yaml: 4.3.1
       parse-json: 5.2.0
     optionalDependencies:
       typescript: 5.9.3
@@ -19297,7 +19297,7 @@ snapshots:
     dependencies:
       env-paths: 2.2.1
       import-fresh: 3.3.1
-      js-yaml: 4.2.0
+      js-yaml: 4.3.1
       parse-json: 5.2.0
     optionalDependencies:
       typescript: 6.0.3
@@ -21858,11 +21858,11 @@ snapshots:
     dependencies:
       argparse: 2.0.1
 
-  js-yaml@4.2.0:
+  js-yaml@4.3.1:
     dependencies:
       argparse: 2.0.1
 
-  js-yaml@4.3.1:
+  js-yaml@5.2.2:
     dependencies:
       argparse: 2.0.1
 
