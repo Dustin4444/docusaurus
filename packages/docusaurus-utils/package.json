@@ -27,7 +27,7 @@
     "github-slugger": "^2.0.0",
     "@11ty/gray-matter": "^2.0.0",
     "jiti": "^2.7.0",
-    "js-yaml": "^4.1.0",
+    "js-yaml": "^5.2.2",
     "lodash": "^4.17.21",
     "micromatch": "^4.0.5",
     "p-queue": "^6.6.2",
